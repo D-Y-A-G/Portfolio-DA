@@ -1,0 +1,79 @@
+nav {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.title,
+.subtitle {
+  font-size: 2rem;
+  margin: 90px;
+}
+
+#name {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.description {
+  display: block;
+  font-size: 1.5rem;
+  color: rgb(170, 170, 170);
+  width: 80%;
+  margin: 60px;
+}
+
+#recentWork {
+  position: relative;
+  font-size: 2rem;
+  color: #fff;
+  text-align: right;
+  margin-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 0%;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+h3 {
+  background-image: url(https://media1.giphy.com/media/SYut2vjrxt87C/giphy.gif?cid=ecf05e47huy60ez4vr3cdrdyztt0h14gtjue9az212a4wrdl&rid=giphy.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 0.8;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+#recentWork {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#k9cupid {
+  display: inline;
+  float: left;
+}
+
+#concert-tracker {
+  float: right;
+}
+
+#tech-blog {
+  float: left;
+}
+
+#portrait {
+  margin: 50px;
+  float: left;
+  position: relative;
+  width: 230px;
+  height: 230px;
+  top: -15px;
+  /* position: absolute;
+  left: 500px;
+  width: 260px;
+  height: 260px; */
+}

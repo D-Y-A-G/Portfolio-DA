@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio Denis!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/node_modules/bulma-start/css/main.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- carousel -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav
+      class="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://github.com/dnsarce21">
+          <!-- <img src="./assets/img/name.jpg" /> -->
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navMenu"
+          id="burger"
+          onclick="toggleBurger()"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item"> Home </a>
+
+          <a class="navbar-item" href="#recentWork"> Projects </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#about-me"> About me </a>
+              <a class="navbar-item" href="https://github.com/D-Y-A-G">
+                GitHub Repo
+              </a>
+              <a class="navbar-item"> Contact </a>
+              <hr class="navbar-divider" />
+              <a
+                class="navbar-item"
+                href="https://www.linkedin.com/in/denis-arce-81163a6b/"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a
+                class="button is-primary"
+                href="./assets/Resume-Denis-Arce.pdf"
+              >
+                Resume link
+              </a>
+              <!-- <a class="button is-danger"> Log in </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar  -->
+    <figure class="image is-128x128" id="portrait">
+      <img class="is-rounded" src="./assets/img/denis2.jpg" />
+    </figure>
+    <section class="section">
+      <div class="container" id="intro">
+        <h1 class="title">Hello,</h1>
+        <p class="subtitle">I'm <span id="name">Denis Arce</span></p>
+      </div>
+
+      <h1 class="nickname"></h1>
+    </section>
+
+    <section>
+      <div class="card description my-0" id="about-me">
+        <div class="card-content about-me" style="font-weight: bold">
+          ABOUT ME...
+          <div class="content" style="color: gray">
+            Full stack web developer with Business Management and Finance
+            experience. Educated at University of Texas at San Antonio.
+            <br />Skills in HTML, CSS, and JavaScript and strengths in managing
+            teams, learning technology, creativity, and teamwork.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- current work -->
+
+    <div class="my-4" id="recentWork">
+      <h3 style="font-size: 2.5rem; font-weight: bold">RECENT WORK</h3>
+    </div>
+
+    <!-- current work -->
+    <div class="container column is-12">
+      <div class="column is-7 project-info my-0">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by10">
+              <img src="./assets/img/k9cupid.jpg" alt="k9cupid profile page" />
+            </figure>
+          </div>
+          <div class="card-content" id="app-details">
+            <div class="media">
+              <div class="media-content">
+                <p
+                  class="title"
+                  style="
+                    align-items: center;
+                    text-align: center;
+                    color: tomato;
+                    font-weight: bold;
+                  "
+                >
+                  💘K9Cupid💘
+                </p>
+                <p
+                  class="subtitle"
+                  style="
+                    align-items: center;
+                    text-align: center;
+                    font-size: 0.75rem;
+                    padding: none;
+                    margin: none;
+                    font-weight: bold;
+                  "
+                >
+                  A social app for humans best friends!
+                </p>
+              </div>
+            </div>
+            <div class="card-content">
+              A built from scratch application for doggies to be able to
+              socialize and find other dogs with similar attributes to make fun
+              and lasting friendships.
+              <a href="https://github.com/D-Y-A-G/K9Cupid">#repo</a>
+              <a
+                class="is-info"
+                href="https://k9-cupid-final.herokuapp.com/"
+                style="font-weight: bolder"
+                >Test App!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- recent work #2 -->
+
+      <div class="column is-7 project-info my-0" id="concert-tracker">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by10">
+              <img
+                src="./assets/img/concert-tracker.jpg"
+                alt="k9cupid profile page"
+              />
+            </figure>
+          </div>
+          <div class="card-content" id="app-details">
+            <div class="media">
+              <div class="media-content">
+                <p
+                  class="title"
+                  style="
+                    align-items: center;
+                    text-align: center;
+                    color: rgb(194, 2, 2);
+                    font-weight: bold;
+                  "
+                >
+                  Concert Tracker
+                </p>
+                <p
+                  class="subtitle"
+                  style="
+                    align-items: center;
+                    text-align: center;
+                    font-size: 0.75rem;
+                    padding: none;
+                    margin: none;
+                    font-weight: bold;
+                  "
+                >
+                  Find your favorite band's music and concert info!
+                </p>
+              </div>
+            </div>
+            <div class="card-content">
+              Front-end application that allows users to search a band/artist
+              for the most upcoming event, provide them with ticket information
+              as well as music video resources.
+
+              <a href="https://github.com/D-Y-A-G/pj1-sam-dav-den">#repo</a>
+              <a
+                class="is-info"
+                href="https://samadams412.github.io/pj1-sam-dav-den/"
+                style="font-weight: bolder"
+                >Test App!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- recent work 3 -->
+
+      <div class="column is-7 project-info my-0" id="tech-blog">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by10">
+              <img
+                src="./assets/img/tech-blog.jpg"
+                alt="k9cupid profile page"
+              />
+            </figure>
+          </div>
+          <div class="card-content" id="app-details">
+            <div class="media">
+              <div class="media-content">
+                <p
+                  class="title"
+                  style="
+                    align-items: center;
+                    text-align: center;
+                    color: royalblue;
+                    font-weight: bold;
+                  "
+                >
+                  Tech-Blog
+                </p>
+                <p
+                  class="subtitle"
+                  style="
+                    align-items: center;
+                    text-align: center;
+                    font-size: 0.75rem;
+                    padding: none;
+                    margin: none;
+                    font-weight: bold;
+                  "
+                >
+                  Blog any topic with other devs!
+                </p>
+              </div>
+            </div>
+            <div class="card-content">
+              A CMS-style blog site similar to a Wordpress site, where
+              developers can publish their blog posts and comment on other
+              developers’ posts as well.
+
+              <a href="https://github.com/D-Y-A-G/Tech-Blog-DA">#repo</a>
+              <a
+                class="is-info"
+                href="https://tech-blog-da.herokuapp.com/"
+                style="font-weight: bolder"
+                >Test App!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact me -->
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
