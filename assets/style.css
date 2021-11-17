@@ -77,11 +77,11 @@ h3 {
   height: 260px; */
 }
 
-#project-one {
-  box-shadow: 20px 20px black;
-}
+/* #project-one {
+  box-shadow: 5px 5px gray;
+} */
 
-#contact {
+#contact-me {
   position: fixed;
   bottom: 0;
   width: 100%;
