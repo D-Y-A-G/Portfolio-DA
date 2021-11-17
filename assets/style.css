@@ -82,7 +82,7 @@ h3 {
 } */
 
 #contact-me {
-  position: fixed;
+  display: inline-block;
   bottom: 0;
   width: 100%;
   height: 1.5rem;
